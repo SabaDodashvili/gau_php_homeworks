@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/* nullstyle */
+body {
+	background: linear-gradient(to right, #acb6e5, #86fde8);
+}
+.form {
+	max-width: 370px;
+	margin: 50px auto;
+	padding: 32px;
+	box-shadow: 0 4px 16px #ccc;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	background-color: #fff;
+}
+.form__item {
+	position: relative;
+	z-index: 2;
+	margin: 0 0 30px 0;
+}
+.form__input {
+	font-size: 16px;
+	width: 100%;
+	padding: 0 0 10px 0;
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	transition: 0.3s all ease 0s;
+	margin: 0 0 5px 0;
+}
+.form-select {
+	margin: 0 0 40px 0;
+}
+.form-select__title {
+	font-size: 19px;
+	margin: 0 0 10px 0;
+}
+.form-select__select {
+	font-size: 16px;
+	color: #000;
+}
+.form-select__option {
+	color: #4597bf;
+}
+.form__button {
+	display: block;
+	height: 40px;
+	width: 100%;
+	border-radius: 20px;
+	background-color: #4597bf;
+	font-size: 16px;
+	color: #fff;
+	transition: 0.3s ease all 0s;
+	cursor: pointer;
+}
+
+.form__button:focus,
+.form__button:hover {
+	background-color: green;
+}
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown) ~ .form__label {
+	top: -18px;
+	font-size: 12px;
+	color: #d2d0d0;
+}
+.form__label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #000;
+	font-size: 16px;
+	transition: 0.3s all ease 0s;
+	z-index: -1;
+}
+.ubdate-btn {
+	margin: 0 0 0 20px;
+	font-family: sans-serif;
+	font-size: 22px;
+	color: black;
+}
+
+.table {
+	border: solid 2px #000;
+	margin: 50px auto;
+	border-collapse: collapse;
+	font-family: sans-serif;
+	background-color: #fff;
+}
+.table tr {
+	border: solid 1px #000;
+}
+.table th,
+td {
+	border: solid 1px;
+	padding: 15px;
+}
