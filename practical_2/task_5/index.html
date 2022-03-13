@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>form type texts</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form action="action.php" class="form" method="POST">
+			<h1 class="form__title">* required field</h1>
+			<div class="form__item form-item">
+				<input class="form-item__input" type="text" name="firstName" placeholder=" " />
+				<label class="form-item__label">Name</label>
+				<span class="form-item__label-required">*</span>
+			</div>
+			<div class="form__item form-item">
+				<input class="form-item__input" type="text" name="mail" placeholder=" " />
+				<label class="form-item__label">E-mail</label>
+				<span class="form-item__label-required">*</span>
+			</div>
+			<div class="form__item form-item">
+				<input class="form-item__input" type="text" name="password" placeholder=" " />
+				<label class="form-item__label">Website</label>
+			</div>
+			<div class="form__item form-item">
+				<div class="form-item__message-box">
+					<textarea class="form-item__textarea" placeholder=" "></textarea>
+					<label class="form-item__label">Enter massage</label>
+				</div>
+			</div>
+			<div class="form__item">
+				<h3 class="form__subtitle">Gender:</h3>
+				<div class="form__options options-form">
+					<label class="options-form__label">
+						<input class="options-form__radio" type="radio" name="gender" />
+						<span class="options-form__style-radio"></span>
+						<span class="options-form__text">Lorem, ipsum.</span>
+					</label>
+					<label class="options-form__label">
+						<input class="options-form__radio" type="radio" name="gender" />
+						<span class="options-form__style-radio"></span>
+						<span class="options-form__text">Lorem, ipsum.</span>
+					</label>
+					<label class="options-form__label">
+						<input class="options-form__radio" type="radio" name="gender" />
+						<span class="options-form__style-radio"></span>
+						<span class="options-form__text">Lorem, ipsum.</span>
+					</label>
+					<label class="options-form__label">
+						<input class="options-form__radio" type="radio" name="gender" />
+						<span class="options-form__style-radio"></span>
+						<span class="options-form__text">Lorem, ipsum.</span>
+					</label>
+				</div>
+			</div>
+			<button class="form__button" type="submit">submit</button>
+		</form>
+	</body>
+</html>
