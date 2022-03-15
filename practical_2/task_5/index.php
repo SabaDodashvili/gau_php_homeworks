@@ -25,7 +25,7 @@ $website = '';
 $comment = '';
 $gender = '';
 
-$errorsArr = [];
+$errorsArr = ['firstName' => '', 'mail' => '', 'website' => '', 'radio' => '',];
 $validationPassed = true;
 
 if (isset($_POST['firstName'])) {
